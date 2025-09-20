@@ -24,7 +24,7 @@
 
 nav {
     background-color: var(--nav-background-color);
-    padding: 10px;
+    padding: 1rem;
 }
 
 nav a {
@@ -33,13 +33,13 @@ nav a {
     padding: 20px;
 }
 
+main {
+    max-width: 640px;
+}
+
 h1 {
     color: var(--h1-text-color); 
     padding: 0.5rem;
-}
-
-main {
-    max-width: 640px;
 }
 
 main img {
@@ -60,8 +60,11 @@ a {
     color: #0263d9;
 }
 
+ul {
+    width: 640px;
+}
+
 aside {
-    max-width: 640px;
     text-align: center;
     position: relative;
 }
@@ -90,11 +93,12 @@ footer {
 /* Class Selectors */
 
 .box {
+    max-width: 640px;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
     background-color: #eee;
-    color: #000
+    color: #000;
 }
 
 .indent {
