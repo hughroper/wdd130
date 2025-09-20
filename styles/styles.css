@@ -6,11 +6,11 @@
 }
 
 :root {
-    --nav-background-color: darkblue;
+    --nav-background-color: #0263d9;
     --nav-text-color: white;
-    --h1-text-color: darkblue;
+    --h1-text-color: #0263d9;
     --profile-image-border-color: black; 
-    --profile-image-box-shadow-color: gray;
+    --profile-image-box-shadow-color: #ccc;
 }
 
 .roboto-<uniquifier> {
@@ -56,6 +56,10 @@ p {
     margin: 1rem;
 }
 
+a {
+    color: #0263d9;
+}
+
 aside {
     max-width: 640px;
     text-align: center;
@@ -89,7 +93,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #eee;
     color: #000
 }
 
