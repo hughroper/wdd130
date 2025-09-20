@@ -1,24 +1,32 @@
+:root {
+    --nav-background-color: darkblue;
+    --nav-text-color: white;
+    --h1-text-color: darkblue;
+    --profile-image-border-color: black; 
+    --profile-image-box-shadow-color: gray;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--nav-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--nav-text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue; 
+    color: var(--h1-text-color); 
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--profile-image-border-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--profile-image-box-shadow-color);
 }
 
 p {
