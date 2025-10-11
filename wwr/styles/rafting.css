@@ -129,7 +129,7 @@ section {
 
 section h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2rem; 
   margin: 6px 0 10px 0;
   color: var(--accent1-color);
 }
