@@ -135,8 +135,7 @@ section h2 {
 }
 
 .history {
-  margin: 0px 
-  border: 1px solid red;
+  margin: 0px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
 }
