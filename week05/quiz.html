@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <meta name="description" content="HTML Form Quiz">
+    <meta name="author" content="Hugh Roper">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <h1>Take a quiz about HTML forms.</h1>
+
+
+        <form>
+            <!-- <fieldset> -->
+            <legend>Questions</legend>
+            <label for="q1"><strong>1.</strong> How do you semantically bold text?</label>
+            <input type="text" id="q1" name="q1">
+            <label for="q2"><strong>2.</strong> Write a rule to color italicized text red?</label>
+            <textarea id="q2" name="q2" rows="4" placeholder=""></textarea>
+            <label for="q3"><strong>3.</strong> Wich is the correct method to style link text when hovered.?</label>
+            <p><code>&lt;a href&quot;http://byupathway.edu&quot;&gt;BYU Pathway&lt;/a&gt;</code></p>
+            <select id="q3" name="q3">
+                <option value="option1">:hover</option>
+                <option value="option2">a:hover</option>
+                <option value="option3">a:hover { }</option>
+            </select>
+            <label for="q4"><strong>4.</strong> What is the top padding in this declaration?</label>
+            <p><code>padding: 10px 5px 15px 0px</code></p>
+            <input type="number" id="q4" name="q4">
+            <!-- </fieldset> -->
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
