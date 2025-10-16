@@ -296,7 +296,9 @@ button {
   font-size: 1rem;
 }
 
-body.contact h1 {
+body.contact h1,
+body.home h1,
+body.trips h1 {
   width: 100%;
   padding: 10px;
   text-align: center;
@@ -308,7 +310,9 @@ body.contact h1 {
   color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
 
-body.contact h2 {
+body.contact h2,
+body.home h2,
+body.trips h2 {
   font-family: var(--heading-font);
   text-align: center;
   font-size: 2rem; 
@@ -317,26 +321,139 @@ body.contact h2 {
 }
 
 
-body.contact .adventure {
+body.contact .adventure,
+body.home .adventure,
+body.trips .adventure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 80px 0 80px;
 }
 
-body.contact .adventure figure {
+body.contact .adventure figure,
+body.home .adventure figure,
+body.trips .adventure figure {
   width: 120px;
 }
 
-body.contact .adventure figure img {
+body.contact .adventure figure img,
+body.home .adventure figure img,
+body.trips .adventure figure img {
   width: 140px;
 }
 
-body.contact .adventure figcaption {
+body.contact .adventure figcaption,
+body.home .adventure figcaption,
+body.trips .adventure figcaption {
     text-align: center;
     padding-top: 10px;
 }
 
-body.contact article {
+body.contact article,
+body.home article,
+body.trips article {
   text-align: center;
 }
+
+
+
+
+body.home .hero {
+  position: relative;
+  margin-top: 10px;
+}
+
+body.home .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+.hero h1, body.home h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+body.home .hero h1 {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--accent1-color-transparent);
+  color: #fff; /* white text - make sure there is enough contrast with the background-color */
+}
+
+body.home article {
+  position: absolute;
+  top: 80px;
+  margin: 0 0 0 30px;
+  width: 780px;
+  background-color: #fff;
+}
+
+body.home article p, article img {
+  margin: 10px;
+}
+
+body.home .hero article img {
+  float: right;
+  width: 120px;
+  margin-left: 30px;
+}
+
+body.home h2 {
+  font-family: var(--heading-font);
+  text-align: center;
+  font-size: 2rem; 
+  margin: 6px 0 10px 0;
+  color: var(--accent1-color);
+}
+
+body.home nav .home,
+body.about nav .about,
+body.trips nav .trips,
+body.contact nav .contact {
+  background-color: #000;
+}
+
+table {
+  background-color: #fff;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+table thead {
+  background-color: #055295;
+}
+
+table th {
+  font-weight: bold;
+  color: #fff;
+}
+
+table th, 
+table td {
+  padding: 1em;
+}
+
+table .title {
+  background-color: var(--accent1-color);
+  color: #fff;
+  padding: 0.75em 1em;
+}
+
+table td:nth-child(1) {
+  width: 40%;
+}
+table td:nth-child(2) {
+  background-color: #c2e5f98d;
+  width: 30%;
+}
+
+table td:nth-child(3) {
+  width: 30%;
+
+}
+
